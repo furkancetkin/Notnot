@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notnot/anaSayfa.dart';
 import 'InputPage.dart';
 
 void main() {
@@ -10,7 +11,7 @@ class NotNot extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InputPage(),
+      home: AnaSayfa(),
     );
   }
 }
